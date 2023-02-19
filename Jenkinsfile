@@ -16,6 +16,7 @@ pipeline {
         stage('Deploy') { 
             steps {
                 sh 'cat 1.cpp'
+                //error 'Pipeline Stage Error'
                 echo 'Deployment Stage Succeddful'
             }
         }
